@@ -16,7 +16,8 @@ function App() {
             className='background'
           />
         <div className='info'>
-            
+          <input name='usuario' placeholder='@username' />
+          <button>Buscar</button>
         </div>
       </div>
     </div>
