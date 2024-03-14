@@ -1,3 +1,4 @@
+import {useState} from 'react';
 import { Header } from '../../components/Header';
 import './styles.css';
 import background from '../../assets/background.png';
@@ -6,6 +7,9 @@ import ItemList from '../../components/ItemList';
 
 
 function App() {
+
+  const [user, setUser] = useState('');
+
   return (
     <div className="App">
       <Header />
@@ -19,7 +23,12 @@ function App() {
 
         <div className='info'>
           <div>
-            <input name='usuario' placeholder='@username' />
+            <input 
+              name='usuario'
+              placeholder='@username'
+              value={user}
+              onChange={event => setUser(event.target.value)}
+            />
             <button>Buscar</button>
           </div>
 
