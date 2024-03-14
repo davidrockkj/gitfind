@@ -18,20 +18,24 @@ function App() {
           />
 
         <div className='info'>
-          <input name='usuario' placeholder='@username' />
-          <button>Buscar</button>
-        </div>
-
-        <div className='perfil'>
-          <img src="https://avatars.githubusercontent.com/u/62350916?s=96&v=4" className='profile' alt='User pic' />
-
           <div>
-            <h3>David Rocha</h3>
-            <p>Descrição</p>
-
+            <input name='usuario' placeholder='@username' />
+            <button>Buscar</button>
           </div>
-        </div>
-      </div>
+
+          <div className='perfil'>
+            <img src="https://avatars.githubusercontent.com/u/62350916?s=96&v=4" className='profile' alt='User pic' />
+
+            <div>
+              <h3>David Rocha</h3>
+              <span>@davidrockkj</span>
+              <p>Descrição</p>
+            </div>
+
+          </div> {/* perfil */}
+          <hr />
+        </div> {/* info */}
+      </div> {/* conteudo */}
     </div>
   );
 }
