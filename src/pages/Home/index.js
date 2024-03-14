@@ -35,7 +35,7 @@ function App() {
           </div> {/* perfil */}
           <hr />
           <div>
-            <h4>Repositórios</h4>
+            <h4 className='repositorio'>Repositórios</h4>
             <ItemList
               title='Teste1'
               description='tesde de descrição' />
