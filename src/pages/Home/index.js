@@ -34,6 +34,9 @@ function App() {
 
           </div> {/* perfil */}
           <hr />
+          <div>
+            <h4>Repositórios</h4>
+          </div> {/* repositorios */}
         </div> {/* info */}
       </div> {/* conteudo */}
     </div>
