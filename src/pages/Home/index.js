@@ -58,7 +58,7 @@ function App() {
 
                 <div>
                   <h3>{currentUser.name}</h3>
-                  <span>{currentUser.login}</span>
+                  <span>{`@${currentUser.login}`}</span>
                   <p>{currentUser.bio}</p>
                 </div> 
 

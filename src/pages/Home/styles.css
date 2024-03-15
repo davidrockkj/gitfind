@@ -1,3 +1,7 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .conteudo {
   position: relative;
   
@@ -28,9 +32,10 @@ input {
   width: 85%;
   margin-right: 12px;
   background: transparent;
-  padding: 10px;
+  padding: 10px 0 10px 20px;
 
   font-size: 18px;
+  color: #fff;
 }
 
 button {
@@ -58,7 +63,7 @@ button {
 }
 
 .perfil h3 {
-  color: #999999;
+  color: 'white';
   font-size: 24px;
   margin: 0;
 }
@@ -66,13 +71,13 @@ button {
 .perfil span {
   display: block;
   color: #999999;
-  font-size: 12px;
+  font-size: 16px;
   margin: 0;
 }
 
 .perfil p {
   color: #999999;
-  font-size: 12px;
+  font-size: 20px;
   margin: 20px 0 0 0;
 }
 
