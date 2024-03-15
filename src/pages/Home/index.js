@@ -23,7 +23,7 @@ function App() {
       const reposData = await fetch(`https://api.github.com/users/${user}/repos`);
       const newRepos = await reposData.json();
 
-      if (newRepos.lenght){
+      if (newRepos.length){
         setRepos(newRepos)
       }
     }
@@ -62,17 +62,16 @@ function App() {
                   <p>{currentUser.bio}</p>
                 </div> 
 
-              </div> {/* perfil */}              <hr />
+              </div>             
+              <hr />
             </>
           ) : null}
 
-          {repos?.lenght ? (
+          {repos?.length ? (
             <div>
               <h4 className='repositorio'>Repositórios</h4>
               {repos.map(repo => (
-                <ItemList
-                  title={repo.name}
-                  description={repo.description} />
+                <ItemList key={repo.name} title={repo.name} description={repo.description} />
               ))}
             </div>
           ) : null}
