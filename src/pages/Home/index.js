@@ -41,7 +41,7 @@ function App() {
           />
 
         <div className='info'>
-          <div>
+          <div className='search'>
             <input 
               name='usuario'
               placeholder='@username'
