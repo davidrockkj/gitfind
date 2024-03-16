@@ -6,6 +6,6 @@ In this project I used 'fetch API' to consume the Github API and make a request.
 
 I used user and repository data, with the user being: avatar_url (profile image), name (Profile name), bio (Profile description), login (username). From the repository: name (repository name), html_url (repository link), description (repository description).
 
-<img src="./src/screenshot/1.png" width="320">
-<img src="./src/screenshot/2.png" width="320">
-<img src="./src/screenshot/3.png" width="320">
+<img src="./src/screenshot/1.png" width="550">
+<img src="./src/screenshot/2.png" width="550">
+<img src="./src/screenshot/3.png" width="550>
